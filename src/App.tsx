@@ -9,7 +9,6 @@ function App() {
           <a href="#about">About</a>
           <a href="#experience">Experience</a>
           <a href="#skills">Skills</a>
-          <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -105,6 +104,30 @@ function App() {
                 <li>MS SQL</li>
               </ul>
             </div>
+          </div>
+        </section>
+        <section className="section" id="contact">
+          <p className="label">04 — CONTACT</p>
+          <div className="contact-links">
+            <a
+              className="contact-link"
+              href="https://www.linkedin.com/in/nikoradic/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn
+            </a>
+            <a
+              className="contact-link"
+              href="https://github.com/nikoradic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+            <a className="contact-link" href="mailto:nikolaradic94@hotmail.com">
+              Email
+            </a>
           </div>
         </section>
       </main>

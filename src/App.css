@@ -131,6 +131,22 @@
   color: var(--text);
 }
 
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.contact-link {
+  font-size: 18px;
+  color: var(--text-h);
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  color: var(--accent);
+}
+
 @media (max-width: 600px) {
   .app {
     padding: 64px 20px;
@@ -144,5 +160,10 @@
   .skills-grid {
     grid-template-columns: 1fr;
     gap: 32px;
+  }
+
+  .contact-links {
+    flex-direction: column;
+    gap: 16px;
   }
 }
