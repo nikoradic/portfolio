@@ -52,9 +52,17 @@
   color: var(--accent);
 }
 
+.hero-statement {
+  margin: 0 0 24px;
+  font-size: 64px;
+  line-height: 1.15;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
 .app h1 {
-  margin: 0 0 20px;
-  font-size: 80px;
+  margin: 0 0 8px;
+  font-size: 44px;
 }
 
 .role {
@@ -283,9 +291,12 @@
 }
 
 @media (max-width: 900px) {
+  .hero-statement {
+    font-size: 44px;
+  }
+
   .app h1 {
-    font-size: 56px;
-    line-height: 1.15;
+    font-size: 32px;
   }
 
   .hero-grid {
@@ -315,8 +326,13 @@
     padding: 64px 20px;
   }
 
+  .hero-statement {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
   .app h1 {
-    font-size: 40px;
+    font-size: 26px;
   }
 
   .hero {

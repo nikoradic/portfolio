@@ -17,6 +17,10 @@ function App() {
           <div className="hero-grid">
             <div className="hero-text">
               <p className="label">01 — ABOUT</p>
+              <p className="hero-statement">
+                Building software with{' '}
+                <span className="heading-accent">curiosity.</span>
+              </p>
               <h1>Nikola Radic</h1>
               <p className="role">Software Developer</p>
               <p className="intro">
