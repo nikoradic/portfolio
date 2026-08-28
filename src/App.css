@@ -1,5 +1,5 @@
 .nav {
-  max-width: 720px;
+  max-width: 1160px;
   margin: 0 auto;
   padding: 24px;
   display: flex;
@@ -31,7 +31,7 @@
 }
 
 .app {
-  max-width: 720px;
+  max-width: 1160px;
   margin: 0 auto;
   padding: 96px 24px;
   display: flex;
@@ -50,8 +50,8 @@
 }
 
 .app h1 {
-  margin: 0 0 12px;
-  font-size: 48px;
+  margin: 0 0 20px;
+  font-size: 80px;
 }
 
 .role {
@@ -67,25 +67,29 @@
   line-height: 1.6;
 }
 
+.hero {
+  padding-bottom: 40px;
+}
+
 .hero-grid {
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.3fr 1fr;
   align-items: start;
-  gap: 56px;
+  gap: 80px;
 }
 
 .hero-terminal {
   width: 100%;
   box-sizing: border-box;
   border: 1px solid #e2ddd6;
-  border-radius: 10px;
-  padding: 28px;
+  border-radius: 12px;
+  padding: 40px;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  gap: 24px;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .terminal-line {
@@ -182,6 +186,17 @@
   color: var(--accent);
 }
 
+@media (max-width: 900px) {
+  .app h1 {
+    font-size: 56px;
+    line-height: 1.15;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (max-width: 600px) {
   .app {
     padding: 64px 20px;
@@ -189,11 +204,20 @@
   }
 
   .app h1 {
-    font-size: 36px;
+    font-size: 40px;
+  }
+
+  .hero {
+    padding-bottom: 24px;
   }
 
   .hero-grid {
     grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .hero-terminal {
+    padding: 24px;
   }
 
   .skills-grid {
