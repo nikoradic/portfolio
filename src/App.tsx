@@ -141,8 +141,13 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="section" id="contact">
+        <section className="section contact-section" id="contact">
           <p className="label">04 — CONTACT</p>
+          <h2 className="section-heading">Let's connect.</h2>
+          <p className="contact-intro">
+            I'm always open to new opportunities, interesting projects and
+            conversations about software development.
+          </p>
           <div className="contact-links">
             <a
               className="contact-link"
@@ -153,7 +158,7 @@ function App() {
               LinkedIn
             </a>
             <a
-              className="contact-link"
+              className="contact-link contact-link-primary"
               href="https://github.com/nikoradic"
               target="_blank"
               rel="noopener noreferrer"

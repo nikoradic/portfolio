@@ -229,19 +229,45 @@
   color: var(--text);
 }
 
+.contact-section {
+  width: 100%;
+  padding-top: 64px;
+  padding-bottom: 40px;
+  border-top: 1px solid #e2ddd6;
+}
+
+.contact-intro {
+  margin: 0 0 40px;
+  max-width: 560px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text);
+}
+
 .contact-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 16px;
 }
 
 .contact-link {
-  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #e2ddd6;
+  border-radius: 8px;
+  padding: 14px 24px;
+  font-size: 16px;
   color: var(--text-h);
   text-decoration: none;
 }
 
 .contact-link:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.contact-link-primary {
+  border-color: var(--accent);
   color: var(--accent);
 }
 
@@ -313,6 +339,14 @@
   .skills-grid {
     grid-template-columns: 1fr;
     gap: 32px;
+  }
+
+  .contact-section {
+    padding-top: 40px;
+  }
+
+  .contact-intro {
+    margin-bottom: 24px;
   }
 
   .contact-links {
