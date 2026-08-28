@@ -70,6 +70,43 @@ function App() {
             </p>
           </div>
         </section>
+        <section className="section" id="skills">
+          <p className="label">03 — SKILLS</p>
+          <div className="skills-grid">
+            <div className="skills-group">
+              <h4 className="subheading">Development</h4>
+              <ul className="skills-list">
+                <li>C# / .NET</li>
+                <li>Java</li>
+                <li>Spring Boot</li>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+                <li>Angular</li>
+                <li>React</li>
+                <li>Aurelia</li>
+              </ul>
+            </div>
+            <div className="skills-group">
+              <h4 className="subheading">DevOps &amp; Tools</h4>
+              <ul className="skills-list">
+                <li>Git</li>
+                <li>Azure DevOps</li>
+                <li>CI/CD</li>
+                <li>OpenShift</li>
+                <li>OpenVMS</li>
+                <li>Swagger UI</li>
+              </ul>
+            </div>
+            <div className="skills-group">
+              <h4 className="subheading">Data</h4>
+              <ul className="skills-list">
+                <li>SQL</li>
+                <li>SQL Developer</li>
+                <li>MS SQL</li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </main>
     </>
   )
