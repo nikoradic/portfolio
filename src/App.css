@@ -212,17 +212,20 @@
   margin: 0 0 16px;
 }
 
-.skills-list {
+.skills-tags {
   list-style: none;
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
-.skills-list li {
-  font-size: 16px;
+.skill-tag {
+  border: 1px solid #e2ddd6;
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-size: 14px;
   color: var(--text);
 }
 
@@ -249,6 +252,10 @@
   }
 
   .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-grid {
     grid-template-columns: 1fr;
   }
 }

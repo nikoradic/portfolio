@@ -105,37 +105,38 @@ function App() {
         </section>
         <section className="section" id="skills">
           <p className="label">03 — SKILLS</p>
+          <h2 className="section-heading">Tools I work with.</h2>
           <div className="skills-grid">
             <div className="skills-group">
               <h4 className="subheading">Development</h4>
-              <ul className="skills-list">
-                <li>C# / .NET</li>
-                <li>Java</li>
-                <li>Spring Boot</li>
-                <li>TypeScript</li>
-                <li>JavaScript</li>
-                <li>Angular</li>
-                <li>React</li>
-                <li>Aurelia</li>
+              <ul className="skills-tags">
+                <li className="skill-tag">C# / .NET</li>
+                <li className="skill-tag">Java</li>
+                <li className="skill-tag">Spring Boot</li>
+                <li className="skill-tag">TypeScript</li>
+                <li className="skill-tag">JavaScript</li>
+                <li className="skill-tag">Angular</li>
+                <li className="skill-tag">React</li>
+                <li className="skill-tag">Aurelia</li>
               </ul>
             </div>
             <div className="skills-group">
               <h4 className="subheading">DevOps &amp; Tools</h4>
-              <ul className="skills-list">
-                <li>Git</li>
-                <li>Azure DevOps</li>
-                <li>CI/CD</li>
-                <li>OpenShift</li>
-                <li>OpenVMS</li>
-                <li>Swagger UI</li>
+              <ul className="skills-tags">
+                <li className="skill-tag">Git</li>
+                <li className="skill-tag">Azure DevOps</li>
+                <li className="skill-tag">CI/CD</li>
+                <li className="skill-tag">OpenShift</li>
+                <li className="skill-tag">OpenVMS</li>
+                <li className="skill-tag">Swagger UI</li>
               </ul>
             </div>
             <div className="skills-group">
               <h4 className="subheading">Data</h4>
-              <ul className="skills-list">
-                <li>SQL</li>
-                <li>SQL Developer</li>
-                <li>MS SQL</li>
+              <ul className="skills-tags">
+                <li className="skill-tag">SQL</li>
+                <li className="skill-tag">SQL Developer</li>
+                <li className="skill-tag">MS SQL</li>
               </ul>
             </div>
           </div>
