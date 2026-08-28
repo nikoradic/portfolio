@@ -98,6 +98,14 @@
   margin-top: 48px;
 }
 
+.subheading {
+  margin: 48px 0 24px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: var(--text-h);
+}
+
 @media (max-width: 600px) {
   .app {
     padding: 64px 20px;

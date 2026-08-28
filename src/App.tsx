@@ -58,6 +58,17 @@ function App() {
               TypeScript, Aurelia, React, C#, Git, Azure DevOps
             </p>
           </div>
+          <h4 className="subheading">Education</h4>
+          <div className="entry">
+            <h3 className="entry-role">.NET Web Developer</h3>
+            <p className="entry-meta">
+              EC Utbildning · Aug 2022 – May 2024 · Gothenburg, Sweden
+            </p>
+            <p className="entry-desc">
+              Studied software and web development with a focus on C# and
+              .NET.
+            </p>
+          </div>
         </section>
       </main>
     </>
