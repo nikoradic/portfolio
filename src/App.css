@@ -67,6 +67,41 @@
   line-height: 1.6;
 }
 
+.hero-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 56px;
+}
+
+.hero-terminal {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #e2ddd6;
+  border-radius: 10px;
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 14px;
+}
+
+.terminal-line {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.terminal-prompt {
+  color: var(--accent);
+}
+
+.terminal-output {
+  color: var(--text-h);
+}
+
 .entry-role {
   margin: 0 0 4px;
   font-size: 24px;
@@ -155,6 +190,10 @@
 
   .app h1 {
     font-size: 36px;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
   }
 
   .skills-grid {

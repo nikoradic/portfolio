@@ -14,15 +14,44 @@ function App() {
       </header>
       <main className="app">
         <section className="hero" id="about">
-          <p className="label">01 — ABOUT</p>
-          <h1>Nikola Radic</h1>
-          <p className="role">Software Developer</p>
-          <p className="intro">
-            I'm a software developer with a background in .NET and hands-on
-            experience working with DevOps and production systems. I enjoy
-            solving problems, learning new technologies, and building software
-            that makes a real difference.
-          </p>
+          <div className="hero-grid">
+            <div className="hero-text">
+              <p className="label">01 — ABOUT</p>
+              <h1>Nikola Radic</h1>
+              <p className="role">Software Developer</p>
+              <p className="intro">
+                I'm a software developer with a background in .NET and
+                hands-on experience working with DevOps and production
+                systems. I enjoy solving problems, learning new
+                technologies, and building software that makes a real
+                difference.
+              </p>
+            </div>
+            <div className="hero-terminal">
+              <div className="terminal-line">
+                <span className="terminal-prompt">$ whoami</span>
+                <span className="terminal-output">&gt; Nikola Radic</span>
+              </div>
+              <div className="terminal-line">
+                <span className="terminal-prompt">$ role</span>
+                <span className="terminal-output">
+                  &gt; software_developer
+                </span>
+              </div>
+              <div className="terminal-line">
+                <span className="terminal-prompt">$ focus</span>
+                <span className="terminal-output">
+                  &gt; devops · development · learning
+                </span>
+              </div>
+              <div className="terminal-line">
+                <span className="terminal-prompt">$ status</span>
+                <span className="terminal-output">
+                  &gt; open_to_opportunities
+                </span>
+              </div>
+            </div>
+          </div>
         </section>
         <section className="section" id="experience">
           <p className="label">02 — EXPERIENCE</p>
