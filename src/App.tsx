@@ -30,6 +30,24 @@ function App() {
                 technologies, and building software that makes a real
                 difference.
               </p>
+              <div className="hero-links">
+                <a
+                  className="hero-link"
+                  href="https://github.com/nikoradic"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub →
+                </a>
+                <a
+                  className="hero-link"
+                  href="https://www.linkedin.com/in/nikoradic/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  LinkedIn →
+                </a>
+              </div>
             </div>
             <div className="hero-terminal">
               <div className="terminal-line">
