@@ -55,47 +55,52 @@ function App() {
         </section>
         <section className="section" id="experience">
           <p className="label">02 — EXPERIENCE</p>
-          <div className="entry">
-            <h3 className="entry-role">DevOps / Software Development</h3>
-            <p className="entry-meta">Volvo Cars · 2025</p>
-            <p className="entry-desc">
-              I worked in a DevOps team supporting production-critical
-              systems and global manufacturing flows. My work included
-              troubleshooting, deployments, CI/CD, incident handling and
-              software development together with the team.
-            </p>
-            <p className="entry-tech">
-              Java, Spring Boot, Angular, TypeScript, Azure DevOps,
-              OpenShift, SQL, Git
-            </p>
+          <h2 className="section-heading">Experience + Education</h2>
+          <div className="timeline">
+            <div className="entry timeline-item">
+              <h3 className="entry-role">DevOps / Software Development</h3>
+              <p className="entry-meta">Volvo Cars · 2025</p>
+              <p className="entry-desc">
+                I worked in a DevOps team supporting production-critical
+                systems and global manufacturing flows. My work included
+                troubleshooting, deployments, CI/CD, incident handling and
+                software development together with the team.
+              </p>
+              <p className="entry-tech">
+                Java, Spring Boot, Angular, TypeScript, Azure DevOps,
+                OpenShift, SQL, Git
+              </p>
+            </div>
+            <div className="entry timeline-item">
+              <h3 className="entry-role">Software Developer Intern</h3>
+              <p className="entry-meta">
+                Hogia Business Products · Nov 2023 – May 2024 · Stenungsund,
+                Sweden
+              </p>
+              <p className="entry-desc">
+                Worked in the development team for ApproveIt and
+                OpenBusiness, contributing to digital invoice flows and
+                approval processes. Delivered UI and feature improvements
+                using TypeScript, Aurelia, React and C#, working with Git
+                and Azure DevOps in an agile environment.
+              </p>
+              <p className="entry-tech">
+                TypeScript, Aurelia, React, C#, Git, Azure DevOps
+              </p>
+            </div>
           </div>
-          <div className="entry">
-            <h3 className="entry-role">Software Developer Intern</h3>
-            <p className="entry-meta">
-              Hogia Business Products · Nov 2023 – May 2024 · Stenungsund,
-              Sweden
-            </p>
-            <p className="entry-desc">
-              Worked in the development team for ApproveIt and OpenBusiness,
-              contributing to digital invoice flows and approval processes.
-              Delivered UI and feature improvements using TypeScript,
-              Aurelia, React and C#, working with Git and Azure DevOps in an
-              agile environment.
-            </p>
-            <p className="entry-tech">
-              TypeScript, Aurelia, React, C#, Git, Azure DevOps
-            </p>
-          </div>
-          <h4 className="subheading">Education</h4>
-          <div className="entry">
-            <h3 className="entry-role">.NET Web Developer</h3>
-            <p className="entry-meta">
-              EC Utbildning · Aug 2022 – May 2024 · Gothenburg, Sweden
-            </p>
-            <p className="entry-desc">
-              Studied software and web development with a focus on C# and
-              .NET.
-            </p>
+          <div className="education">
+            <h4 className="subheading">Education</h4>
+            <div className="entry">
+              <h3 className="entry-role">.NET Web Developer</h3>
+              <p className="entry-meta">
+                EC Utbildning · Aug 2022 – May 2024 · Gothenburg, Sweden
+              </p>
+              <p className="entry-desc">
+                Studied software and web development with a focus on C#
+                and .NET.
+              </p>
+            </div>
           </div>
         </section>
         <section className="section" id="skills">

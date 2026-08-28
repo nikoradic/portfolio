@@ -137,6 +137,62 @@
   margin-top: 48px;
 }
 
+.section-heading {
+  margin: 0 0 48px;
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 4px;
+  width: 2px;
+  background: #e2ddd6;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 28px;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--bg);
+  border: 2px solid var(--accent);
+}
+
+.timeline .entry + .entry {
+  margin-top: 0;
+}
+
+.education {
+  width: 100%;
+  margin-top: 64px;
+  padding-top: 40px;
+  border-top: 1px solid #e2ddd6;
+}
+
+.education .subheading {
+  margin-top: 0;
+}
+
 .subheading {
   margin: 48px 0 24px;
   font-size: 15px;
@@ -218,6 +274,33 @@
 
   .hero-terminal {
     padding: 24px;
+  }
+
+  .section-heading {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+
+  .timeline {
+    gap: 32px;
+  }
+
+  .timeline-item {
+    padding-left: 20px;
+  }
+
+  .timeline-item::before {
+    width: 8px;
+    height: 8px;
+  }
+
+  .timeline::before {
+    left: 3px;
+  }
+
+  .education {
+    margin-top: 40px;
+    padding-top: 24px;
   }
 
   .skills-grid {
