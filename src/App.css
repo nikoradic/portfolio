@@ -11,6 +11,7 @@
 }
 
 .nav-name {
+  font-size: 16px;
   font-weight: 600;
   color: var(--text-h);
 }
@@ -102,7 +103,7 @@
   width: 100%;
   box-sizing: border-box;
   border: 1px solid #e2ddd6;
-  border-radius: 12px;
+  border-radius: 10px;
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -231,7 +232,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 48px;
+  gap: 56px;
 }
 
 .skills-group .subheading {
@@ -257,7 +258,7 @@
 
 .contact-intro {
   margin: 0 0 40px;
-  max-width: 560px;
+  max-width: 520px;
   font-size: 18px;
   line-height: 1.6;
   color: var(--text);
@@ -273,14 +274,18 @@
   display: inline-flex;
   align-items: center;
   border: 1px solid #e2ddd6;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 14px 24px;
   font-size: 16px;
   color: var(--text-h);
   text-decoration: none;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
-.contact-link:hover {
+.contact-link:hover,
+.contact-link:focus-visible {
   border-color: var(--accent);
   color: var(--accent);
 }
@@ -351,6 +356,7 @@
 
   .hero-terminal {
     padding: 24px;
+    font-size: 14px;
   }
 
   .section-heading {
