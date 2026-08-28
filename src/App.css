@@ -150,9 +150,16 @@
 
 .section-heading {
   margin: 0 0 48px;
-  font-size: 40px;
+  font-size: 52px;
+  line-height: 1.15;
   font-weight: 600;
   color: var(--text-h);
+}
+
+.heading-accent {
+  color: var(--accent);
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', serif;
 }
 
 .timeline {
@@ -287,6 +294,10 @@
 
   .skills-grid {
     grid-template-columns: 1fr;
+  }
+
+  .section-heading {
+    font-size: 40px;
   }
 
   .hero {

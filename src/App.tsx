@@ -55,7 +55,9 @@ function App() {
         </section>
         <section className="section" id="experience">
           <p className="label">02 — EXPERIENCE</p>
-          <h2 className="section-heading">Experience + Education</h2>
+          <h2 className="section-heading">
+            Experience + <span className="heading-accent">Education</span>
+          </h2>
           <div className="timeline">
             <div className="entry timeline-item">
               <h3 className="entry-role">DevOps / Software Development</h3>
@@ -105,7 +107,9 @@ function App() {
         </section>
         <section className="section" id="skills">
           <p className="label">03 — SKILLS</p>
-          <h2 className="section-heading">Tools I work with.</h2>
+          <h2 className="section-heading">
+            Tools I <span className="heading-accent">work with</span>.
+          </h2>
           <div className="skills-grid">
             <div className="skills-group">
               <h4 className="subheading">Development</h4>
@@ -143,7 +147,9 @@ function App() {
         </section>
         <section className="section contact-section" id="contact">
           <p className="label">04 — CONTACT</p>
-          <h2 className="section-heading">Let's connect.</h2>
+          <h2 className="section-heading">
+            Let's <span className="heading-accent">connect.</span>
+          </h2>
           <p className="contact-intro">
             I'm always open to new opportunities, interesting projects and
             conversations about software development.
