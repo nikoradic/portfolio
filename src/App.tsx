@@ -47,6 +47,14 @@ function App() {
                 >
                   LinkedIn →
                 </a>
+                <a
+                  className="hero-link"
+                  href="/Nikola_Radic_CV.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download CV →
+                </a>
               </div>
             </div>
             <div className="hero-terminal">
