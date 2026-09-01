@@ -12,6 +12,9 @@ function App() {
           <a href="#skills">Skills</a>
           <a href="#contact">Contact</a>
         </nav>
+        <a className="nav-cta" href="#contact">
+          Hire me
+        </a>
       </header>
       <main className="app">
         <section className="hero" id="about">

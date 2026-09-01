@@ -34,6 +34,25 @@
   color: var(--accent);
 }
 
+.nav-cta {
+  display: inline-flex;
+  align-items: center;
+  background: var(--accent);
+  color: var(--text-h);
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 8px;
+  transition: opacity 0.2s ease;
+}
+
+.nav-cta:hover,
+.nav-cta:focus-visible {
+  opacity: 0.85;
+  outline: none;
+}
+
 .app {
   max-width: 1160px;
   margin: 0 auto;
