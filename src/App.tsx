@@ -1,4 +1,5 @@
 import './App.css'
+import profilePhoto from './assets/nikola-profile.png'
 
 function App() {
   return (
@@ -57,27 +58,15 @@ function App() {
                 </a>
               </div>
             </div>
-            <div className="hero-terminal">
-              <div className="terminal-line">
-                <span className="terminal-prompt">$ whoami</span>
-                <span className="terminal-output">&gt; Nikola Radic</span>
-              </div>
-              <div className="terminal-line">
-                <span className="terminal-prompt">$ role</span>
-                <span className="terminal-output">
-                  &gt; software_developer
-                </span>
-              </div>
-              <div className="terminal-line">
-                <span className="terminal-prompt">$ focus</span>
-                <span className="terminal-output">
-                  &gt; devops · development · learning
-                </span>
-              </div>
-              <div className="terminal-line">
-                <span className="terminal-prompt">$ status</span>
-                <span className="terminal-output">
-                  &gt; open_to_opportunities
+            <div className="hero-visual">
+              <div className="hero-photo-wrap">
+                <img
+                  className="hero-photo"
+                  src={profilePhoto}
+                  alt="Nikola Radic"
+                />
+                <span className="hero-photo-label">
+                  ↓ hi, nice to meet you
                 </span>
               </div>
             </div>
