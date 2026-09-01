@@ -1,20 +1,47 @@
+import { useState } from 'react'
 import './App.css'
 import profilePhoto from './assets/nikola-profile.png'
 
 function App() {
+  const [theme, setTheme] = useState<'light' | 'dark'>('light')
+
   return (
-    <>
+    <div className={theme === 'dark' ? 'app-root dark' : 'app-root'}>
       <header className="nav">
         <span className="nav-name">Nikola Radic</span>
-        <nav className="nav-links">
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a className="nav-cta" href="#contact">
-          Hire me
-        </a>
+        <div className="nav-right">
+          <nav className="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <div className="theme-toggle">
+            <button
+              type="button"
+              className={
+                theme === 'light' ? 'theme-toggle-btn active' : 'theme-toggle-btn'
+              }
+              aria-pressed={theme === 'light'}
+              onClick={() => setTheme('light')}
+            >
+              Light
+            </button>
+            <button
+              type="button"
+              className={
+                theme === 'dark' ? 'theme-toggle-btn active' : 'theme-toggle-btn'
+              }
+              aria-pressed={theme === 'dark'}
+              onClick={() => setTheme('dark')}
+            >
+              Dark
+            </button>
+          </div>
+          <a className="nav-cta" href="#contact">
+            Hire me
+          </a>
+        </div>
       </header>
       <main className="app">
         <section className="hero" id="about">
@@ -199,7 +226,7 @@ function App() {
           </div>
         </section>
       </main>
-    </>
+    </div>
   )
 }
 

@@ -1,3 +1,19 @@
+.app-root {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.app-root.dark {
+  --bg: #201a15;
+  --text: #d8cfc4;
+  --text-h: #f3ece3;
+  --border: #3a322b;
+}
+
 .nav {
   max-width: 1160px;
   margin: 0 auto;
@@ -7,7 +23,7 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 12px;
-  border-bottom: 1px solid #e2ddd6;
+  border-bottom: 1px solid var(--border);
 }
 
 .nav-name {
@@ -34,11 +50,51 @@
   color: var(--accent);
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 2px;
+}
+
+.theme-toggle-btn {
+  border: none;
+  background: transparent;
+  color: var(--text);
+  font-size: 13px;
+  font-family: inherit;
+  padding: 4px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.theme-toggle-btn:hover,
+.theme-toggle-btn:focus-visible {
+  color: var(--accent);
+}
+
+.theme-toggle-btn.active {
+  background: var(--accent);
+  color: var(--accent-text);
+}
+
 .nav-cta {
   display: inline-flex;
   align-items: center;
   background: var(--accent);
-  color: var(--text-h);
+  color: var(--accent-text);
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
@@ -126,7 +182,7 @@
   width: 100%;
   padding-top: 72px;
   padding-bottom: 72px;
-  border-top: 1px solid #e2ddd6;
+  border-top: 1px solid var(--border);
 }
 
 .hero-grid {
@@ -161,7 +217,7 @@
   aspect-ratio: 4 / 5;
   object-fit: cover;
   box-sizing: border-box;
-  border: 1px solid #e2ddd6;
+  border: 1px solid var(--border);
   border-radius: 10px;
   display: block;
 }
@@ -171,7 +227,7 @@
   left: 24px;
   bottom: -14px;
   background: var(--accent);
-  color: var(--text-h);
+  color: var(--accent-text);
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   font-size: 13px;
   padding: 6px 12px;
@@ -253,7 +309,7 @@
   bottom: 0;
   left: 4px;
   width: 2px;
-  background: #e2ddd6;
+  background: var(--border);
 }
 
 .timeline-item {
@@ -281,7 +337,7 @@
   width: 100%;
   margin-top: 64px;
   padding-top: 40px;
-  border-top: 1px solid #e2ddd6;
+  border-top: 1px solid var(--border);
 }
 
 .education .subheading {
@@ -317,7 +373,7 @@
 }
 
 .skill-tag {
-  border: 1px solid #e2ddd6;
+  border: 1px solid var(--border);
   border-radius: 999px;
   padding: 6px 14px;
   font-size: 14px;
@@ -341,7 +397,7 @@
 .contact-link {
   display: inline-flex;
   align-items: center;
-  border: 1px solid #e2ddd6;
+  border: 1px solid var(--border);
   border-radius: 10px;
   padding: 14px 24px;
   font-size: 16px;
