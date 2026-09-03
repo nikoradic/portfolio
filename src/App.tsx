@@ -80,11 +80,19 @@ function App() {
                 </a>
                 <a
                   className="hero-link"
-                  href="/Nikola_Radic_CV.pdf"
+                  href="/resume_en.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  Download CV →
+                  Download CV Eng →
+                </a>
+                   <a
+                  className="hero-link"
+                  href="/resume_sv.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download CV Sve →
                 </a>
               </div>
             </div>
