@@ -11,23 +11,23 @@ function App() {
         <span className="nav-name">Nikola Radic</span>
         <div className="nav-right">
           <nav className="nav-links">
-            <a href="#about">About</a>
-            <a href="#experience">Experience</a>
-            <a href="#recommendations">Recommendations</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+            <a href="#about">
+              <span className="nav-num">01</span>About
+            </a>
+            <a href="#experience">
+              <span className="nav-num">02</span>Experience
+            </a>
+            <a href="#recommendations">
+              <span className="nav-num">03</span>Recommendations
+            </a>
+            <a href="#skills">
+              <span className="nav-num">04</span>Skills
+            </a>
+            <a href="#contact">
+              <span className="nav-num">05</span>Contact
+            </a>
           </nav>
           <div className="theme-toggle">
-            <button
-              type="button"
-              className={
-                theme === 'light' ? 'theme-toggle-btn active' : 'theme-toggle-btn'
-              }
-              aria-pressed={theme === 'light'}
-              onClick={() => setTheme('light')}
-            >
-              Light
-            </button>
             <button
               type="button"
               className={
@@ -36,7 +36,17 @@ function App() {
               aria-pressed={theme === 'dark'}
               onClick={() => setTheme('dark')}
             >
-              Dark
+              ☾ Dark
+            </button>
+            <button
+              type="button"
+              className={
+                theme === 'light' ? 'theme-toggle-btn active' : 'theme-toggle-btn'
+              }
+              aria-pressed={theme === 'light'}
+              onClick={() => setTheme('light')}
+            >
+              ☀ Light
             </button>
           </div>
           <a className="nav-cta" href="#contact">
