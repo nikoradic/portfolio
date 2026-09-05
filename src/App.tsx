@@ -45,6 +45,7 @@ function App() {
       </header>
       <main className="app">
         <section className="hero" id="about">
+          <div className="section-inner">
           <div className="hero-grid">
             <div className="hero-text">
               <p className="label">01 — ABOUT</p>
@@ -109,8 +110,10 @@ function App() {
               </div>
             </div>
           </div>
+          </div>
         </section>
         <section className="section" id="experience">
+          <div className="section-inner">
           <p className="label">02 — EXPERIENCE</p>
           <h2 className="section-heading">
             Experience + <span className="heading-accent">Education</span>
@@ -161,8 +164,10 @@ function App() {
               </p>
             </div>
           </div>
+          </div>
         </section>
         <section className="section" id="skills">
+          <div className="section-inner">
           <p className="label">03 — SKILLS</p>
           <h2 className="section-heading">
             Tools I <span className="heading-accent">work with</span>.
@@ -201,8 +206,10 @@ function App() {
               </ul>
             </div>
           </div>
+          </div>
         </section>
         <section className="section contact-section" id="contact">
+          <div className="section-inner">
           <p className="label">04 — CONTACT</p>
           <h2 className="section-heading">
             Let's <span className="heading-accent">connect.</span>
@@ -231,6 +238,7 @@ function App() {
             <a className="contact-link" href="mailto:nikolaradic94@hotmail.com">
               Email
             </a>
+          </div>
           </div>
         </section>
       </main>

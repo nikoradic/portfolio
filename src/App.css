@@ -12,6 +12,7 @@
   --text: #d8cfc4;
   --text-h: #f3ece3;
   --border: #3a322b;
+  --section-alt: #26201a;
 }
 
 .nav {
@@ -110,14 +111,14 @@
 }
 
 .app {
+  width: 100%;
+}
+
+.section-inner {
   max-width: 1160px;
   margin: 0 auto;
-  padding: 96px 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  padding: 0 24px;
   text-align: left;
-  gap: 0;
 }
 
 .label {
@@ -156,6 +157,7 @@
 
 .hero {
   width: 100%;
+  padding-top: 96px;
   padding-bottom: 72px;
 }
 
@@ -183,6 +185,20 @@
   padding-top: 72px;
   padding-bottom: 72px;
   border-top: 1px solid var(--border);
+}
+
+.contact-section {
+  padding-bottom: calc(72px + 96px);
+}
+
+#about,
+#skills {
+  background-color: var(--section-alt);
+}
+
+#experience,
+#contact {
+  background-color: var(--bg);
 }
 
 .hero-grid {
@@ -448,11 +464,15 @@
     padding-top: 56px;
     padding-bottom: 56px;
   }
+
+  .contact-section {
+    padding-bottom: calc(56px + 96px);
+  }
 }
 
 @media (max-width: 600px) {
-  .app {
-    padding: 64px 20px;
+  .section-inner {
+    padding: 0 20px;
   }
 
   .hero-statement {
@@ -465,12 +485,17 @@
   }
 
   .hero {
+    padding-top: 64px;
     padding-bottom: 40px;
   }
 
   .section {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .contact-section {
+    padding-bottom: calc(40px + 64px);
   }
 
   .hero-grid {
