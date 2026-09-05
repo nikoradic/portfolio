@@ -166,9 +166,53 @@ function App() {
           </div>
           </div>
         </section>
+        <section className="section" id="recommendations">
+          <div className="section-inner">
+          <p className="label">03 — RECOMMENDATIONS</p>
+          <h2 className="section-heading">
+            What people <span className="heading-accent">say.</span>
+          </h2>
+          <div className="recommendations-items">
+            <div className="recommendation-item">
+              <div className="rec-logo-wrap">
+                <img
+                  className="rec-logo rec-logo-volvo"
+                  src="/Volvo-Logo-cropped.png"
+                  alt="Volvo Cars"
+                />
+              </div>
+              <a
+                className="hero-link"
+                href="/Volvo_Recommendation_Letter.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Volvo Cars recommendation →
+              </a>
+            </div>
+            <div className="recommendation-item">
+              <div className="rec-logo-wrap">
+                <img
+                  className="rec-logo rec-logo-hogia"
+                  src="/Hogia-logo.png"
+                  alt="Hogia"
+                />
+              </div>
+              <a
+                className="hero-link"
+                href="/Hogia_Recommendation_Letter.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Hogia recommendation →
+              </a>
+            </div>
+          </div>
+          </div>
+        </section>
         <section className="section" id="skills">
           <div className="section-inner">
-          <p className="label">03 — SKILLS</p>
+          <p className="label">04 — SKILLS</p>
           <h2 className="section-heading">
             Tools I <span className="heading-accent">work with</span>.
           </h2>
@@ -210,7 +254,7 @@ function App() {
         </section>
         <section className="section contact-section" id="contact">
           <div className="section-inner">
-          <p className="label">04 — CONTACT</p>
+          <p className="label">05 — CONTACT</p>
           <h2 className="section-heading">
             Let's <span className="heading-accent">connect.</span>
           </h2>

@@ -180,6 +180,48 @@
   color: var(--accent);
 }
 
+#recommendations .section-heading {
+  text-align: center;
+}
+
+.recommendations-items {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 48px;
+}
+
+.recommendation-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 1 220px;
+}
+
+.rec-logo-wrap {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.rec-logo {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.rec-logo-volvo {
+  height: 100px;
+}
+
+.rec-logo-hogia {
+  height: 52px;
+}
+
 .section {
   width: 100%;
   padding-top: 72px;
@@ -192,12 +234,13 @@
 }
 
 #about,
-#skills {
+#recommendations,
+#contact {
   background-color: var(--section-alt);
 }
 
 #experience,
-#contact {
+#skills {
   background-color: var(--bg);
 }
 
@@ -298,7 +341,7 @@
 }
 
 .section-heading {
-  margin: 0 0 48px;
+  margin: 0 0 60px;
   font-size: 52px;
   line-height: 1.15;
   font-weight: 600;
@@ -501,6 +544,22 @@
   .hero-grid {
     grid-template-columns: 1fr;
     gap: 40px;
+  }
+
+  .recommendations-items {
+    gap: 32px;
+  }
+
+  .rec-logo-wrap {
+    height: 56px;
+  }
+
+  .rec-logo-volvo {
+    height: 56px;
+  }
+
+  .rec-logo-hogia {
+    height: 42px;
   }
 
   .hero-visual {
