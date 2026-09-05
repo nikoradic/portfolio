@@ -451,6 +451,29 @@
   color: var(--accent);
 }
 
+.skills-traits {
+  width: 100%;
+  margin-top: 64px;
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.trait-tag {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 18px;
+  font-size: 15px;
+  color: var(--text);
+  transition:
+    border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.trait-tag:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .contact-intro {
   margin: 0 0 40px;
   max-width: 520px;

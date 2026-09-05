@@ -251,6 +251,16 @@ function App() {
               </ul>
             </div>
           </div>
+          <div className="skills-traits">
+            <p className="label">HOW I SHOW UP</p>
+            <ul className="skills-tags">
+              <li className="trait-tag">Calm</li>
+              <li className="trait-tag">Curious</li>
+              <li className="trait-tag">Organized</li>
+              <li className="trait-tag">Team player</li>
+              <li className="trait-tag">Driven</li>
+            </ul>
+          </div>
           </div>
         </section>
         <section className="section contact-section" id="contact">
