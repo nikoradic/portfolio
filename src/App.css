@@ -323,7 +323,16 @@
 .entry-meta {
   margin: 0 0 16px;
   font-size: 15px;
+}
+
+.entry-org {
   color: var(--accent);
+  font-weight: 600;
+}
+
+.entry-when {
+  color: var(--text);
+  font-size: 14px;
 }
 
 .entry-desc {
@@ -362,7 +371,11 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  gap: 48px;
+  gap: 56px;
+}
+
+.timeline-item:first-child .entry-role {
+  font-size: 26px;
 }
 
 .timeline::before {
@@ -405,6 +418,10 @@
 
 .education .subheading {
   margin-top: 0;
+}
+
+.education .entry-role {
+  font-size: 20px;
 }
 
 .subheading {
@@ -511,6 +528,69 @@
 .contact-link-primary {
   border-color: var(--accent);
   color: var(--accent);
+}
+
+.resume-block {
+  width: 100%;
+  margin-top: 56px;
+  padding-top: 40px;
+  border-top: 1px solid var(--border);
+}
+
+.resume-intro {
+  margin: 0 0 24px;
+  max-width: 480px;
+  font-size: 16px;
+  color: var(--text);
+}
+
+.resume-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.resume-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex: 1 1 220px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px 20px;
+  color: var(--text-h);
+  text-decoration: none;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.resume-option:hover,
+.resume-option:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.resume-option-main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.resume-lang {
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--accent);
+}
+
+.resume-name {
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .back-to-top-wrap {
@@ -681,7 +761,11 @@
   }
 
   .timeline {
-    gap: 32px;
+    gap: 36px;
+  }
+
+  .timeline-item:first-child .entry-role {
+    font-size: 24px;
   }
 
   .timeline-item {

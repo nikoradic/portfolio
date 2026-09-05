@@ -122,7 +122,10 @@ function App() {
           <div className="timeline">
             <div className="entry timeline-item">
               <h3 className="entry-role">DevOps / Software Development</h3>
-              <p className="entry-meta">Volvo Cars · 2025</p>
+              <p className="entry-meta">
+                <span className="entry-org">Volvo Cars</span>
+                <span className="entry-when"> · 2025</span>
+              </p>
               <p className="entry-desc">
                 I worked in a DevOps team supporting production-critical
                 systems and global manufacturing flows. My work included
@@ -137,8 +140,11 @@ function App() {
             <div className="entry timeline-item">
               <h3 className="entry-role">Software Developer Intern</h3>
               <p className="entry-meta">
-                Hogia Business Products · Nov 2023 – May 2024 · Stenungsund,
-                Sweden
+                <span className="entry-org">Hogia Business Products</span>
+                <span className="entry-when">
+                  {' '}
+                  · Nov 2023 – May 2024 · Stenungsund, Sweden
+                </span>
               </p>
               <p className="entry-desc">
                 Worked in the development team for ApproveIt and
@@ -157,7 +163,11 @@ function App() {
             <div className="entry">
               <h3 className="entry-role">.NET Web Developer</h3>
               <p className="entry-meta">
-                EC Utbildning · Aug 2022 – May 2024 · Gothenburg, Sweden
+                <span className="entry-org">EC Utbildning</span>
+                <span className="entry-when">
+                  {' '}
+                  · Aug 2022 – May 2024 · Gothenburg, Sweden
+                </span>
               </p>
               <p className="entry-desc">
                 Studied software and web development with a focus on C#
@@ -293,22 +303,38 @@ function App() {
             <a className="contact-link" href="mailto:nikolaradic94@hotmail.com">
               Email
             </a>
-            <a
-              className="contact-link"
-              href="/resume_en.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              CV (English)
-            </a>
-            <a
-              className="contact-link"
-              href="/resume_sv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              CV (Svenska)
-            </a>
+          </div>
+          <div className="resume-block">
+            <p className="label">RESUME</p>
+            <p className="resume-intro">
+              My CV is available in English and Swedish.
+            </p>
+            <div className="resume-options">
+              <a
+                className="resume-option"
+                href="/resume_en.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="resume-option-main">
+                  <span className="resume-lang">EN</span>
+                  <span className="resume-name">English</span>
+                </span>
+                <span className="resume-arrow">↓</span>
+              </a>
+              <a
+                className="resume-option"
+                href="/resume_sv.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span className="resume-option-main">
+                  <span className="resume-lang">SV</span>
+                  <span className="resume-name">Svenska</span>
+                </span>
+                <span className="resume-arrow">↓</span>
+              </a>
+            </div>
           </div>
           </div>
         </section>
