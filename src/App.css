@@ -645,6 +645,18 @@
   gap: 20px;
 }
 
+.footer-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-icon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
+}
+
 .footer-status-line {
   display: flex;
   align-items: center;
