@@ -1,19 +1,52 @@
+import { useState } from 'react'
 import './App.css'
+import profilePhoto from './assets/nikola-profile.png'
 
 function App() {
+  const [theme, setTheme] = useState<'light' | 'dark'>('light')
+
   return (
-    <>
+    <div className={theme === 'dark' ? 'app-root dark' : 'app-root'}>
       <header className="nav">
         <span className="nav-name">Nikola Radic</span>
-        <nav className="nav-links">
-          <a href="#about">About</a>
-          <a href="#experience">Experience</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact">Contact</a>
-        </nav>
+        <div className="nav-right">
+          <nav className="nav-links">
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#recommendations">Recommendations</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+          </nav>
+          <div className="theme-toggle">
+            <button
+              type="button"
+              className={
+                theme === 'light' ? 'theme-toggle-btn active' : 'theme-toggle-btn'
+              }
+              aria-pressed={theme === 'light'}
+              onClick={() => setTheme('light')}
+            >
+              Light
+            </button>
+            <button
+              type="button"
+              className={
+                theme === 'dark' ? 'theme-toggle-btn active' : 'theme-toggle-btn'
+              }
+              aria-pressed={theme === 'dark'}
+              onClick={() => setTheme('dark')}
+            >
+              Dark
+            </button>
+          </div>
+          <a className="nav-cta" href="#contact">
+            Hire me
+          </a>
+        </div>
       </header>
       <main className="app">
         <section className="hero" id="about">
+          <div className="section-inner">
           <div className="hero-grid">
             <div className="hero-text">
               <p className="label">01 — ABOUT</p>
@@ -47,35 +80,41 @@ function App() {
                 >
                   LinkedIn →
                 </a>
+                <a
+                  className="hero-link"
+                  href="/resume_en.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download CV Eng →
+                </a>
+                   <a
+                  className="hero-link"
+                  href="/resume_sv.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Download CV Sve →
+                </a>
               </div>
             </div>
-            <div className="hero-terminal">
-              <div className="terminal-line">
-                <span className="terminal-prompt">$ whoami</span>
-                <span className="terminal-output">&gt; Nikola Radic</span>
-              </div>
-              <div className="terminal-line">
-                <span className="terminal-prompt">$ role</span>
-                <span className="terminal-output">
-                  &gt; software_developer
-                </span>
-              </div>
-              <div className="terminal-line">
-                <span className="terminal-prompt">$ focus</span>
-                <span className="terminal-output">
-                  &gt; devops · development · learning
-                </span>
-              </div>
-              <div className="terminal-line">
-                <span className="terminal-prompt">$ status</span>
-                <span className="terminal-output">
-                  &gt; open_to_opportunities
+            <div className="hero-visual">
+              <div className="hero-photo-wrap">
+                <img
+                  className="hero-photo"
+                  src={profilePhoto}
+                  alt="Nikola Radic"
+                />
+                <span className="hero-photo-label">
+                  ↓ hi, nice to meet you
                 </span>
               </div>
             </div>
           </div>
+          </div>
         </section>
         <section className="section" id="experience">
+          <div className="section-inner">
           <p className="label">02 — EXPERIENCE</p>
           <h2 className="section-heading">
             Experience + <span className="heading-accent">Education</span>
@@ -126,9 +165,55 @@ function App() {
               </p>
             </div>
           </div>
+          </div>
+        </section>
+        <section className="section" id="recommendations">
+          <div className="section-inner">
+          <p className="label">03 — RECOMMENDATIONS</p>
+          <h2 className="section-heading">
+            What people <span className="heading-accent">say.</span>
+          </h2>
+          <div className="recommendations-items">
+            <div className="recommendation-item">
+              <div className="rec-logo-wrap">
+                <img
+                  className="rec-logo rec-logo-volvo"
+                  src="/Volvo-Logo-cropped.png"
+                  alt="Volvo Cars"
+                />
+              </div>
+              <a
+                className="hero-link"
+                href="/Volvo_Recommendation_Letter.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Volvo Cars recommendation →
+              </a>
+            </div>
+            <div className="recommendation-item">
+              <div className="rec-logo-wrap">
+                <img
+                  className="rec-logo rec-logo-hogia"
+                  src="/Hogia-logo.png"
+                  alt="Hogia"
+                />
+              </div>
+              <a
+                className="hero-link"
+                href="/Hogia_Recommendation_Letter.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Hogia recommendation →
+              </a>
+            </div>
+          </div>
+          </div>
         </section>
         <section className="section" id="skills">
-          <p className="label">03 — SKILLS</p>
+          <div className="section-inner">
+          <p className="label">04 — SKILLS</p>
           <h2 className="section-heading">
             Tools I <span className="heading-accent">work with</span>.
           </h2>
@@ -166,9 +251,11 @@ function App() {
               </ul>
             </div>
           </div>
+          </div>
         </section>
         <section className="section contact-section" id="contact">
-          <p className="label">04 — CONTACT</p>
+          <div className="section-inner">
+          <p className="label">05 — CONTACT</p>
           <h2 className="section-heading">
             Let's <span className="heading-accent">connect.</span>
           </h2>
@@ -196,10 +283,62 @@ function App() {
             <a className="contact-link" href="mailto:nikolaradic94@hotmail.com">
               Email
             </a>
+            <a
+              className="contact-link"
+              href="/resume_en.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CV (English)
+            </a>
+            <a
+              className="contact-link"
+              href="/resume_sv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CV (Svenska)
+            </a>
+          </div>
           </div>
         </section>
       </main>
-    </>
+      <div className="back-to-top-wrap">
+        <a className="hero-link back-to-top" href="#about">
+          Back to top ↑
+        </a>
+      </div>
+      <footer className="site-footer">
+        <div className="section-inner footer-grid">
+          <div className="footer-info">
+            <p className="footer-name">Nikola Radic</p>
+            <p className="footer-meta">Gothenburg, Sweden</p>
+            <p className="footer-meta">Open to opportunities</p>
+          </div>
+          <div className="footer-links">
+            <a
+              className="hero-link"
+              href="https://github.com/nikoradic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
+            <a
+              className="hero-link"
+              href="https://www.linkedin.com/in/nikoradic/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn →
+            </a>
+          </div>
+        </div>
+        <div className="section-inner">
+          <p className="footer-copyright">© 2026 Nikola Radic</p>
+        </div>
+      </footer>
+    </div>
   )
 }
 
