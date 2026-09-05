@@ -348,18 +348,10 @@ I'm always interested in new opportunities, interesting problems, and teams wher
         <div className="section-inner footer-grid">
           <div className="footer-info">
             <p className="footer-name">Nikola Radic</p>
+            <p className="footer-meta">Software Developer</p>
             <p className="footer-meta">Gothenburg, Sweden</p>
-            <p className="footer-meta">Open to opportunities</p>
           </div>
           <div className="footer-links">
-            <a
-              className="hero-link"
-              href="https://github.com/nikoradic"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub →
-            </a>
             <a
               className="hero-link"
               href="https://www.linkedin.com/in/nikoradic/"
@@ -368,6 +360,25 @@ I'm always interested in new opportunities, interesting problems, and teams wher
             >
               LinkedIn →
             </a>
+            <a
+              className="hero-link"
+              href="https://github.com/nikoradic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
+            <a className="hero-link" href="mailto:nikolaradic94@hotmail.com">
+              Email →
+            </a>
+          </div>
+          <div className="footer-status">
+            <p className="footer-name">Status</p>
+            <p className="footer-status-line">
+              <span className="status-dot" aria-hidden="true"></span>
+              Open to work
+            </p>
+            <p className="footer-meta">Open to opportunities</p>
           </div>
         </div>
         <div className="section-inner">
