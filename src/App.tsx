@@ -282,10 +282,56 @@ function App() {
             <a className="contact-link" href="mailto:nikolaradic94@hotmail.com">
               Email
             </a>
+            <a
+              className="contact-link"
+              href="/resume_en.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CV (English)
+            </a>
+            <a
+              className="contact-link"
+              href="/resume_sv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              CV (Svenska)
+            </a>
           </div>
           </div>
         </section>
       </main>
+      <footer className="site-footer">
+        <div className="section-inner footer-grid">
+          <div className="footer-info">
+            <p className="footer-name">Nikola Radic</p>
+            <p className="footer-meta">Gothenburg, Sweden</p>
+            <p className="footer-meta">Open to opportunities</p>
+          </div>
+          <div className="footer-links">
+            <a
+              className="hero-link"
+              href="https://github.com/nikoradic"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub →
+            </a>
+            <a
+              className="hero-link"
+              href="https://www.linkedin.com/in/nikoradic/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LinkedIn →
+            </a>
+          </div>
+        </div>
+        <div className="section-inner">
+          <p className="footer-copyright">© 2026 Nikola Radic</p>
+        </div>
+      </footer>
     </div>
   )
 }
