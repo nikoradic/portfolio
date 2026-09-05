@@ -67,11 +67,17 @@ function App() {
               <h1>Nikola Radic</h1>
               <p className="role">Software Developer</p>
               <p className="intro">
-                I'm a software developer with a background in .NET and
-                hands-on experience working with DevOps and production
-                systems. I enjoy solving problems, learning new
-                technologies, and building software that makes a real
-                difference.
+               Hello! 👋 I'm a curious and driven software developer with a background in .NET and hands-on experience working with DevOps, software development, and production-critical systems. I enjoy understanding how things work, solving problems, and learning new technologies along the way.
+
+My journey has taken me from software development studies to working in real development environments at Hogia and Volvo Cars. I've worked with technologies such as C#, .NET, Java, Spring Boot, TypeScript, Angular, React, Azure DevOps, OpenShift, SQL, and Git — while gaining experience with everything from development and troubleshooting to deployments, CI/CD, and production support.
+
+I'm a team player who values collaboration, structure, and clear communication. I enjoy working alongside people with different skills and perspectives, and I believe the best solutions often come from learning from each other and working toward the same goal.
+
+I'm naturally curious and I like a challenge. Whether it's understanding an unfamiliar system, tracking down a problem, or picking up a new technology, I enjoy the process of learning and improving. I try to stay calm, organized, and positive even when things get complicated.
+
+Outside of the technical side, I bring a lot of energy and commitment to what I do — while still believing that being humble, approachable, and easy to work with matters just as much.
+
+I'm always interested in new opportunities, interesting problems, and teams where I can continue learning and contribute. Let's connect! 🚀
               </p>
               <div className="hero-links">
                 <a
@@ -89,22 +95,6 @@ function App() {
                   rel="noopener noreferrer"
                 >
                   LinkedIn →
-                </a>
-                <a
-                  className="hero-link"
-                  href="/resume_en.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Download CV Eng →
-                </a>
-                   <a
-                  className="hero-link"
-                  href="/resume_sv.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Download CV Sve →
                 </a>
               </div>
             </div>

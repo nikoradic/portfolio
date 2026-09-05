@@ -8,11 +8,13 @@
 }
 
 .app-root.dark {
-  --bg: #201a15;
-  --text: #d8cfc4;
-  --text-h: #f3ece3;
-  --border: #3a322b;
-  --section-alt: #26201a;
+  --bg: #010409;
+  --text: #8b949e;
+  --text-h: #f0f6fc;
+  --border: #30363d;
+  --section-alt: #0d1117;
+  --accent: #7983f5;
+  --accent-text: #010409;
 }
 
 .nav {
