@@ -302,6 +302,11 @@ function App() {
           </div>
         </section>
       </main>
+      <div className="back-to-top-wrap">
+        <a className="hero-link back-to-top" href="#about">
+          Back to top ↑
+        </a>
+      </div>
       <footer className="site-footer">
         <div className="section-inner footer-grid">
           <div className="footer-info">

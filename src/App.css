@@ -478,6 +478,12 @@
   color: var(--accent);
 }
 
+.back-to-top-wrap {
+  width: 100%;
+  text-align: center;
+  padding: 24px 0 0;
+}
+
 .site-footer {
   width: 100%;
   padding: 48px 0;
