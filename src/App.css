@@ -305,7 +305,7 @@
   object-fit: cover;
   box-sizing: border-box;
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 16px;
   display: block;
 }
 
@@ -584,11 +584,6 @@
 
 .contact-link:hover,
 .contact-link:focus-visible {
-  border-color: var(--accent);
-  color: var(--accent);
-}
-
-.contact-link-primary {
   border-color: var(--accent);
   color: var(--accent);
 }

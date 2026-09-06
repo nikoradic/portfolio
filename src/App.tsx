@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import profilePhoto from './assets/nikola-profile.png'
+import profilePhoto from './assets/robot-image.png'
 
 function App() {
   const [theme, setTheme] = useState<'light' | 'dark'>('light')
@@ -102,7 +102,7 @@ function App() {
                 <img
                   className="hero-photo"
                   src={profilePhoto}
-                  alt="Nikola Radic"
+                  alt="Friendly robot avatar waving"
                 />
                 <span className="hero-photo-label">
                   ↓ hi, nice to meet you
@@ -319,7 +319,7 @@ function App() {
               LinkedIn
             </a>
             <a
-              className="contact-link contact-link-primary"
+              className="contact-link"
               href="https://github.com/nikoradic"
               target="_blank"
               rel="noopener noreferrer"
