@@ -250,16 +250,19 @@ function App() {
                 <li className="skill-tag">Spring Boot</li>
                 <li className="skill-tag">TypeScript</li>
                 <li className="skill-tag">JavaScript</li>
+                <li className="skill-tag">HTML</li>
+                <li className="skill-tag">CSS</li>
                 <li className="skill-tag">Angular</li>
                 <li className="skill-tag">React</li>
                 <li className="skill-tag">Aurelia</li>
               </ul>
             </div>
             <div className="skills-group">
-              <h4 className="subheading">DevOps &amp; Tools</h4>
+              <h4 className="subheading">DevOps &amp; Cloud</h4>
               <ul className="skills-tags">
                 <li className="skill-tag">Git</li>
                 <li className="skill-tag">Azure DevOps</li>
+                <li className="skill-tag">Azure</li>
                 <li className="skill-tag">CI/CD</li>
                 <li className="skill-tag">OpenShift</li>
                 <li className="skill-tag">OpenVMS</li>
@@ -272,6 +275,15 @@ function App() {
                 <li className="skill-tag">SQL</li>
                 <li className="skill-tag">SQL Developer</li>
                 <li className="skill-tag">MS SQL</li>
+              </ul>
+            </div>
+            <div className="skills-group">
+              <h4 className="subheading">Ways of Working</h4>
+              <ul className="skills-tags">
+                <li className="skill-tag">ITIL</li>
+                <li className="skill-tag">Incident / Problem / Change Management</li>
+                <li className="skill-tag">Agile</li>
+                <li className="skill-tag">Scrum</li>
               </ul>
             </div>
           </div>
