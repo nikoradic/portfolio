@@ -50,7 +50,7 @@ function App() {
             </button>
           </div>
           <a className="nav-cta" href="#contact">
-            Hire me
+            Let's talk!
           </a>
         </div>
       </header>
