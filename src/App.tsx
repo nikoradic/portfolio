@@ -281,7 +281,9 @@ function App() {
               <h4 className="subheading">Ways of Working</h4>
               <ul className="skills-tags">
                 <li className="skill-tag">ITIL</li>
-                <li className="skill-tag">Incident / Problem / Change Management</li>
+                <li className="skill-tag">Incident Management</li>
+                <li className="skill-tag">Problem Management</li>
+                <li className="skill-tag">Change Management</li>
                 <li className="skill-tag">Agile</li>
                 <li className="skill-tag">Scrum</li>
               </ul>

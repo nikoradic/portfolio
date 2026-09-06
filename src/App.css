@@ -340,20 +340,6 @@
   box-shadow: 0 0 6px 1px rgba(47, 158, 88, 0.45);
 }
 
-.terminal-line {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-}
-
-.terminal-prompt {
-  color: var(--accent);
-}
-
-.terminal-output {
-  color: var(--text-h);
-}
-
 .entry-role {
   margin: 0 0 8px;
   font-size: 24px;
