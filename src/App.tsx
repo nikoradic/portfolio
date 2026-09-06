@@ -109,6 +109,10 @@ I'm always interested in new opportunities, interesting problems, and teams wher
                   ↓ hi, nice to meet you
                 </span>
               </div>
+              <p className="hero-status">
+                <span className="status-dot" aria-hidden="true"></span>
+                Open to work
+              </p>
             </div>
           </div>
           </div>

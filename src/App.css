@@ -319,6 +319,23 @@
   white-space: nowrap;
 }
 
+.hero-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 24px 0 0;
+  font-family: var(--mono);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.hero-status .status-dot {
+  background: #2f9e58;
+  box-shadow: 0 0 6px 1px rgba(47, 158, 88, 0.45);
+}
+
 .terminal-line {
   display: flex;
   flex-direction: column;
