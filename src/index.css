@@ -7,7 +7,10 @@
   --accent-text: #f7f4f1;
   --section-alt: #efeae1;
 
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --sans: 'Space Grotesk', system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --accent-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --pixel: 'Silkscreen', monospace;
 
   font: 18px/145% var(--sans);
   color: var(--text);

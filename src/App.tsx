@@ -59,7 +59,7 @@ function App() {
           <div className="section-inner">
           <div className="hero-grid">
             <div className="hero-text">
-              <p className="label">01 — ABOUT</p>
+              <p className="label"><span className="label-num">01</span> — ABOUT</p>
               <p className="hero-statement">
                 Building software with{' '}
                 <span className="heading-accent">curiosity.</span>
@@ -115,7 +115,7 @@ I'm always interested in new opportunities, interesting problems, and teams wher
         </section>
         <section className="section" id="experience">
           <div className="section-inner">
-          <p className="label">02 — EXPERIENCE</p>
+          <p className="label"><span className="label-num">02</span> — EXPERIENCE</p>
           <h2 className="section-heading">
             Experience + <span className="heading-accent">Education</span>
           </h2>
@@ -179,7 +179,7 @@ I'm always interested in new opportunities, interesting problems, and teams wher
         </section>
         <section className="section" id="recommendations">
           <div className="section-inner">
-          <p className="label">03 — RECOMMENDATIONS</p>
+          <p className="label"><span className="label-num">03</span> — RECOMMENDATIONS</p>
           <h2 className="section-heading">
             What people <span className="heading-accent">say.</span>
           </h2>
@@ -223,7 +223,7 @@ I'm always interested in new opportunities, interesting problems, and teams wher
         </section>
         <section className="section" id="skills">
           <div className="section-inner">
-          <p className="label">04 — SKILLS</p>
+          <p className="label"><span className="label-num">04</span> — SKILLS</p>
           <h2 className="section-heading">
             Tools I <span className="heading-accent">work with</span>.
           </h2>
@@ -275,7 +275,7 @@ I'm always interested in new opportunities, interesting problems, and teams wher
         </section>
         <section className="section contact-section" id="contact">
           <div className="section-inner">
-          <p className="label">05 — CONTACT</p>
+          <p className="label"><span className="label-num">05</span> — CONTACT</p>
           <h2 className="section-heading">
             Let's <span className="heading-accent">connect.</span>
           </h2>
