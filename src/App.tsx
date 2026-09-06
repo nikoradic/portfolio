@@ -332,6 +332,24 @@ function App() {
               >
                 <span className="resume-option-main">
                   <span className="resume-lang">EN</span>
+                  <span className="flag-icon" aria-hidden="true">
+                    <svg viewBox="0 0 60 30" xmlns="http://www.w3.org/2000/svg">
+                      <clipPath id="flag-gb-clip">
+                        <rect width="60" height="30" />
+                      </clipPath>
+                      <g clipPath="url(#flag-gb-clip)">
+                        <rect width="60" height="30" fill="#00247d" />
+                        <path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" strokeWidth="6" />
+                        <path
+                          d="M0,0 L26,15 M34,15 L60,30 M60,0 L34,15 M26,15 L0,30"
+                          stroke="#cf142b"
+                          strokeWidth="4"
+                        />
+                        <path d="M30,0 v30 M0,15 h60" stroke="#fff" strokeWidth="10" />
+                        <path d="M30,0 v30 M0,15 h60" stroke="#cf142b" strokeWidth="6" />
+                      </g>
+                    </svg>
+                  </span>
                   <span className="resume-name">English</span>
                 </span>
                 <span className="resume-arrow">↓</span>
@@ -344,6 +362,13 @@ function App() {
               >
                 <span className="resume-option-main">
                   <span className="resume-lang">SV</span>
+                  <span className="flag-icon" aria-hidden="true">
+                    <svg viewBox="0 0 16 10" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="16" height="10" fill="#006aa7" />
+                      <rect x="5" width="2" height="10" fill="#fecc00" />
+                      <rect y="4" width="16" height="2" fill="#fecc00" />
+                    </svg>
+                  </span>
                   <span className="resume-name">Svenska</span>
                 </span>
                 <span className="resume-arrow">↓</span>

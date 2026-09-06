@@ -657,6 +657,21 @@
   font-weight: 600;
 }
 
+.flag-icon {
+  display: inline-flex;
+  align-items: center;
+  width: 20px;
+  border-radius: 3px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.flag-icon svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .back-to-top-wrap {
   width: 100%;
   text-align: center;
