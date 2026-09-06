@@ -663,6 +663,24 @@
   padding: 24px 0 0;
 }
 
+.back-to-top {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 8px 18px;
+  transition:
+    color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.back-to-top:hover,
+.back-to-top:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
 .site-footer {
   width: 100%;
   padding: 48px 0;
