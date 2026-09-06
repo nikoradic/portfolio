@@ -185,6 +185,10 @@
   line-height: 1.6;
 }
 
+.intro + .intro {
+  margin-top: 20px;
+}
+
 .hero {
   width: 100%;
   padding-top: 96px;

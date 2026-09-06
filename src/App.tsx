@@ -67,17 +67,16 @@ function App() {
               <h1>Nikola Radic</h1>
               <p className="role">Software Developer</p>
               <p className="intro">
-               Hello! 👋 I'm a curious and driven software developer with a background in .NET and hands-on experience working with DevOps, software development, and production-critical systems. I enjoy understanding how things work, solving problems, and learning new technologies along the way.
-
-My journey has taken me from software development studies to working in real development environments at Hogia and Volvo Cars. I've worked with technologies such as C#, .NET, Java, Spring Boot, TypeScript, Angular, React, Azure DevOps, OpenShift, SQL, and Git — while gaining experience with everything from development and troubleshooting to deployments, CI/CD, and production support.
-
-I'm a team player who values collaboration, structure, and clear communication. I enjoy working alongside people with different skills and perspectives, and I believe the best solutions often come from learning from each other and working toward the same goal.
-
-I'm naturally curious and I like a challenge. Whether it's understanding an unfamiliar system, tracking down a problem, or picking up a new technology, I enjoy the process of learning and improving. I try to stay calm, organized, and positive even when things get complicated.
-
-Outside of the technical side, I bring a lot of energy and commitment to what I do — while still believing that being humble, approachable, and easy to work with matters just as much.
-
-I'm always interested in new opportunities, interesting problems, and teams where I can continue learning and contribute. Let's connect! 🚀
+                Hello! 👋 I’m a driven and curious software developer with a background in .NET and hands-on experience working with DevOps, software development, and production environments. I enjoy understanding how systems fit together, learning new technologies, and constantly finding ways to improve.
+              </p>
+              <p className="intro">
+                I’ve always been a team player and I enjoy working with people who bring different skills and perspectives. I value clear communication, structure, and helping the team move toward the same goal.
+              </p>
+              <p className="intro">
+                Two of my strongest qualities are curiosity and drive. I believe being genuinely curious and willing to put in the effort is one of the best ways to learn and grow. I enjoy taking on new challenges, understanding things that are unfamiliar to me, and developing my skills along the way.
+              </p>
+              <p className="intro">
+                I’m always looking for opportunities to grow, take on new challenges, and contribute to a team building meaningful software. Let’s connect! 🚀
               </p>
               <div className="hero-links">
                 <a
