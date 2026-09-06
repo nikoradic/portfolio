@@ -136,10 +136,16 @@ I'm always interested in new opportunities, interesting problems, and teams wher
                 troubleshooting, deployments, CI/CD, incident handling and
                 software development together with the team.
               </p>
-              <p className="entry-tech">
-                Java, Spring Boot, Angular, TypeScript, Azure DevOps,
-                OpenShift, SQL, Git
-              </p>
+              <ul className="entry-tech">
+                <li className="tech-tag">Java</li>
+                <li className="tech-tag">Spring Boot</li>
+                <li className="tech-tag">Angular</li>
+                <li className="tech-tag">TypeScript</li>
+                <li className="tech-tag">Azure DevOps</li>
+                <li className="tech-tag">OpenShift</li>
+                <li className="tech-tag">SQL</li>
+                <li className="tech-tag">Git</li>
+              </ul>
             </div>
             <div className="entry timeline-item">
               <h3 className="entry-role">Software Developer Intern</h3>
@@ -157,9 +163,14 @@ I'm always interested in new opportunities, interesting problems, and teams wher
                 using TypeScript, Aurelia, React and C#, working with Git
                 and Azure DevOps in an agile environment.
               </p>
-              <p className="entry-tech">
-                TypeScript, Aurelia, React, C#, Git, Azure DevOps
-              </p>
+              <ul className="entry-tech">
+                <li className="tech-tag">TypeScript</li>
+                <li className="tech-tag">Aurelia</li>
+                <li className="tech-tag">React</li>
+                <li className="tech-tag">C#</li>
+                <li className="tech-tag">Git</li>
+                <li className="tech-tag">Azure DevOps</li>
+              </ul>
             </div>
           </div>
           <div className="education">
